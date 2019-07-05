@@ -3,7 +3,6 @@
 int cuenta_en_alto = 2000 ;               // cualquier valor mayor a 1  ( ejemplo 100 , 200 ,  500, 2000 , 5000 ... etc)
 int cuenta_total   = cuenta_en_alto*2 ;  
 
-
 void setup() {
 
   Serial.begin(9600);
@@ -15,7 +14,6 @@ void setup() {
   digitalWrite(6,LOW);  // rojo
   digitalWrite(7,LOW);  // verde
   digitalWrite(8,LOW);  // Buzzer
-
 
 }
 
