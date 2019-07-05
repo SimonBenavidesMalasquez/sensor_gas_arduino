@@ -1,5 +1,4 @@
 // CONFIGURA SONIDO : 
-
 int cuenta_en_alto = 2000 ;               // cualquier valor mayor a 1  ( ejemplo 100 , 200 ,  500, 2000 , 5000 ... etc)
 int cuenta_total   = cuenta_en_alto*2 ;  
 
@@ -44,13 +43,11 @@ void loop() {
      sound_intermitente(true);
      
    }
-
 }
 
 int timer_sound = 0 ;
 
 void sound_intermitente( boolean enable ){
-    
 
     // Si alarma activada :
     if( enable == true ){
@@ -70,7 +67,6 @@ void sound_intermitente( boolean enable ){
         }
       
     }
-  
 }
 
 
