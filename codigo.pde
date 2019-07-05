@@ -17,6 +17,7 @@ void setup() {
 
 }
 
+// FUNCION PRINCIPAL
 void loop() {
  
    //sensor 0 - 1024
